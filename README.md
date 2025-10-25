@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+<img width="1885" height="962" alt="Screenshot 2025-10-25 235531" src="https://github.com/user-attachments/assets/111ddfa6-48bd-43a8-87c2-07a7cb1e2e38" /># 🎨 Figma Assignment — React + Material UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Figma design implementation** built with **React** and **Material UI (MUI)**.
+The goal of this assignment was to replicate a given Figma layout with functional, responsive components and a modern neumorphic design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🔗 **Live Site:** [https://figmaassignment-zeta.vercel.app](https://figmaassignment-zeta.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧱 Tech Stack
 
-### `npm test`
+* ⚛️ **React** — Frontend framework
+* 🎨 **Material UI (MUI)** — UI components and styling
+* 💅 **Custom SX Styles** — Shadows, margins, and transitions
+* 🖼️ **Unsplash Images** — Free non-copyright image placeholders
+* 🌐 **GitHub & Vercel** — Version control and deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+figma-assignment/
+│
+├── src/
+│   ├── components/
+│   │   ├── AboutCard.jsx
+│   │   ├── GalleryCard.jsx
+│   │   └── TabPanel.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── theme.js
+│
+├── public/
+│   └── index.html
+│
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Features
 
-### `npm run eject`
+✅ **Responsive Layout** — Adapts between mobile and desktop
+✅ **Empty Left Section** — Matches Figma’s design requirement
+✅ **About Section Card** — Displays project or profile info
+✅ **Gallery Section** — Scrollable image slider with upload button
+✅ **Smooth Shadows & Margins** — Neumorphic hover effects
+✅ **Clean UI** — Balanced spacing and typography
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧰 How to Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Amit-code01/figma-assignment.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 2️⃣ Navigate into the folder
+cd figma-assignment
 
-## Learn More
+# 3️⃣ Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 4️⃣ Start the app
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Visit 👉 [http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌍 Deployment (Vercel)
 
-### Analyzing the Bundle Size
+The project is deployed using [Vercel](https://vercel.com):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Linked GitHub repository (`Amit-code01/figma-assignment`)
+2. Automatic builds on every new push to `main`
+3. Output directory: `build`
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📸 Preview
 
-### Advanced Configuration
+>
+><img width="1889" height="938" alt="Screenshot 2025-10-25 235404" src="https://github.com/user-attachments/assets/9ca1b795-72ec-44db-8d86-1c965a8e047e" />
+<img width="1883" height="950" alt="Screenshot 2025-10-25 235423" src="https://github.com/user-attachments/assets/c8043f10-38e1-4b45-a9f9-fa8c8d285a23" />
+<img width="1883" height="958" alt="Screenshot 2025-10-25 235441" src="https://github.com/user-attachments/assets/e584c8a8-a7aa-4e41-b307-f17bda37526a" />
+<img width="1885" height="962" alt="Screenshot 2025-10-25 235531" src="https://github.com/user-attachments/assets/4477d29a-7e17-492e-b4e5-23d1f54ddeb3" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+/assets/preview
+```
